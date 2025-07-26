@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${urbanist.variable} antialiased`}
+        className={`${urbanist.variable} antialiased h-full`}
       >
         {children}
       </body>

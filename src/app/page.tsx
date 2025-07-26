@@ -6,7 +6,6 @@ export default function Home() {
     <main>
       <div className="flex min-h-[100vh] h-full bg-no-repeat bg-gradient-cover">
         <CoverParticles />
-        <p></p>
       </div>
     </main>
 

@@ -18,7 +18,7 @@ const CoverParticles = () => {
 
     return (
         init && (
-            <div className="w-[0px]">
+
 
             <Particles
                 id="tsparticles"
@@ -85,7 +85,7 @@ const CoverParticles = () => {
                     detectRetina: true,
                 }}
             />
-            </div>
+
         )
     );
 };
