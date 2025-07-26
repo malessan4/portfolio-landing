@@ -11,8 +11,6 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-cover":
-         "linear-gradient(90.21deg, rgba(170, 54, 124, 0.8) -5.91%, rgba(74, 47, 189, 0.8) 111.58%)",
       },
     },
   },

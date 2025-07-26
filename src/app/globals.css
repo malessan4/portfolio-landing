@@ -2,16 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-
 html,
 body {
-  /* height: 100%; */
+
+  margin: 0;
+  padding: 0;
+  height: 100%;
   color: #fff;
-  background: #1f1934;
+  background: linear-gradient(90.21deg, rgba(129, 43, 95, 0.8) -5.91%, rgba(74, 47, 189, 0.8) 111.58%);
+  background-attachment: fixed;
 }
 
 main {
-  background: #1f1934;
+  /* Elimina el background específico de main si no lo necesitas */
   height: 100vh;
   height: 100dvh;
 }
