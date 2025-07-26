@@ -1,3 +1,5 @@
+'use client';
+
 import { useCallback, useEffect, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import type { Container, Engine } from "@tsparticles/engine";
@@ -16,14 +18,11 @@ const CoverParticles = () => {
 
     return (
         init && (
+            <div className="w-[0px]">
+
             <Particles
                 id="tsparticles"
                 options={{
-                    background: {
-                        color: {
-                            value: "#0d47a1",
-                        },
-                    },
                     fpsLimit: 120,
                     interactivity: {
                         events: {
@@ -64,7 +63,7 @@ const CoverParticles = () => {
                                 default: "bounce",
                             },
                             random: false,
-                            speed: 6,
+                            speed: 2,
                             straight: false,
                         },
                         number: {
@@ -86,6 +85,7 @@ const CoverParticles = () => {
                     detectRetina: true,
                 }}
             />
+            </div>
         )
     );
 };
